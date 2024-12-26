@@ -1,0 +1,58 @@
+.header {
+    background-color: rgb(72 236 241);
+    color: #61973f;
+
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url(../img/header1.jpg);
+    background-position-y: 620px;
+}
+
+.header-logo {
+    background-color: rgb(18, 18, 18);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.header-image {
+    filter: invert(100%) sepia(2%) saturate(0%) hue-rotate(124deg) brightness(108%) contrast(101%);
+}
+
+.header-list {
+    display: flex;
+    column-gap: 20px;
+}
+
+.header-link {
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+}
+
+.hero-descr {
+    margin-bottom: 60px;
+}
+
+.footer {
+    background-color: rgb(26, 26, 26);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-img {
+    filter: invert(100%) sepia(2%) saturate(0%) hue-rotate(124deg) brightness(108%) contrast(101%);
+}
+
+.footer-list {
+    display: flex;
+    column-gap: 20px;
+}
